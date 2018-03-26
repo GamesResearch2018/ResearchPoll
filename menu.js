@@ -396,7 +396,7 @@ function endScreen(){
 	game.world.setBounds(0, 0, 640, 480);
 	//background = game.add.tileSprite(0, 0, 640, 480, 'background');
 	var style = { font: "35px Arial", fill: "#ffffff", align: "center" };
-	startText = game.add.text(130, 70, "Thank you for playing.", style);
+	startText = game.add.text(130, 70, "Thank you for playing. \nPollCode (www.poll-pool.com): acf73k95", style);
 	startText.setShadow(3, 3, 'rgba(0,0,0,0.5)', 2);
 	sendData();
 	//download()
